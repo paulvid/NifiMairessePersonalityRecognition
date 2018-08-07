@@ -1,0 +1,2 @@
+# NifiMairessePersonalityRecognition
+Nifi Processor using Mairesse Personality Recognition library
