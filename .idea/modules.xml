@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mairesse-personality-recognition.iml" filepath="$PROJECT_DIR$/mairesse-personality-recognition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/nifi-MairessePersonalityRecognition-nar.iml" filepath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/nifi-MairessePersonalityRecognition-nar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/nifi-MairessePersonalityRecognition-processors.iml" filepath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/nifi-MairessePersonalityRecognition-processors.iml" />
+    </modules>
+  </component>
+</project>

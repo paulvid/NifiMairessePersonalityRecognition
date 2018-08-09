@@ -49,5 +49,15 @@
             <artifactId>junit</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>com.github.paulvid</groupId>
+            <artifactId>mrc-psycholinguistic-database</artifactId>
+            <version>0.9</version>
+        </dependency>
+        <dependency>
+            <groupId>nz.ac.waikato.cms.weka</groupId>
+            <artifactId>weka-stable</artifactId>
+            <version>3.8.0</version>
+        </dependency>
     </dependencies>
 </project>

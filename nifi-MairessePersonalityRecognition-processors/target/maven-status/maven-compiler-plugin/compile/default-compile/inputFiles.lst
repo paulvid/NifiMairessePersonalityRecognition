@@ -1,1 +1,3 @@
-/Users/pvidal/Documents/nifi_precessors/mairesse-personality-recognition/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MyProcessor.java
+/Users/pvidal/Documents/nifi_precessors/mairesse-personality-recognition/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/LIWCDictionary.java
+/Users/pvidal/Documents/nifi_precessors/mairesse-personality-recognition/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/Utils.java
+/Users/pvidal/Documents/nifi_precessors/mairesse-personality-recognition/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java
