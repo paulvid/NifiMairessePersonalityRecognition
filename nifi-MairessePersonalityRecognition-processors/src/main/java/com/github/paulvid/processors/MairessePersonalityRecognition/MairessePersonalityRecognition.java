@@ -132,7 +132,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
     public static final PropertyDescriptor MRC_PATH = new PropertyDescriptor
             .Builder().name("MRC_PATH")
             .displayName("MRC DB File Path")
-            .description("File path to the MRC database (e.g. /home/nifi/perso-recognition/lib/mrc2.dct")
+            .description("File path to the MRC database (e.g. /home/nifi/perso-recognition/lib/mrc2.dct)")
             .required(true)
             .expressionLanguageSupported(true)
             .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
@@ -141,7 +141,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
     public static final PropertyDescriptor LIWC_PATH = new PropertyDescriptor
             .Builder().name("LIWC_PATH")
             .displayName("LIWC Dictionary File Path")
-            .description("File path to the LIWC Dictionary (e.g. /home/nifi/perso-recognition/lib/LIWC.CAT")
+            .description("File path to the LIWC Dictionary (e.g. /home/nifi/perso-recognition/lib/LIWC.CAT)")
             .required(true)
             .expressionLanguageSupported(true)
             .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
@@ -150,7 +150,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
     public static final PropertyDescriptor ARFF_PATH = new PropertyDescriptor
             .Builder().name("ARFF_PATH")
             .displayName("Weka ARFF File Path")
-            .description("File path to the Weka ARFF file with all attributes and no instance (e.g. /home/nifi/perso-recognition/lib/attributes-info.arff")
+            .description("File path to the Weka ARFF file with all attributes and no instance(e.g. /home/nifi/perso-recognition/lib/attributes-info.arff)")
             .required(true)
             .expressionLanguageSupported(true)
             .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
@@ -159,7 +159,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
     public static final PropertyDescriptor MODELS_BASE_DIR = new PropertyDescriptor
             .Builder().name("MODELS_BASE_DIR")
             .displayName("Models Directory Path")
-            .description("Directory path to the root of the different models (e.g. /home/nifi/perso-recognition/lib/models/")
+            .description("Directory path to the root of the different models (e.g. /home/nifi/perso-recognition/lib/models/)")
             .required(true)
             .expressionLanguageSupported(true)
             .addValidator(StandardValidators.NON_EMPTY_VALIDATOR)
@@ -247,6 +247,10 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
         descriptors.add(MODEL_TYPE);
         descriptors.add(OUTPUT_COUNT_FLAG);
         descriptors.add(OUTPUT_MODEL_FLAG);
+        descriptors.add(MRC_PATH);
+        descriptors.add(LIWC_PATH);
+        descriptors.add(ARFF_PATH);
+        descriptors.add(MODELS_BASE_DIR);
         this.descriptors = Collections.unmodifiableList(descriptors);
 
         final Set<Relationship> relationships = new HashSet<Relationship>();
