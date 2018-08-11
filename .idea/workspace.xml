@@ -19,8 +19,8 @@
       <file leaf-file-name="MairessePersonalityRecognition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="785">
-              <caret line="252" column="39" selection-start-line="252" selection-start-column="39" selection-end-line="252" selection-end-column="39" />
+            <state relative-caret-position="186">
+              <caret line="335" column="14" selection-start-line="335" selection-start-column="14" selection-end-line="335" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#8991#8999#0" expanded="true" />
@@ -98,6 +98,7 @@
       <find>DIMENSION</find>
       <find>Instance</find>
       <find>Instance</find>
+      <find>read(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -286,14 +287,14 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32958034" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18257694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18257694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -423,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="785">
-          <caret line="252" column="39" selection-start-line="252" selection-start-column="39" selection-end-line="252" selection-end-column="39" />
+        <state relative-caret-position="186">
+          <caret line="335" column="14" selection-start-line="335" selection-start-column="14" selection-end-line="335" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#8991#8999#0" expanded="true" />

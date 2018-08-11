@@ -32,10 +32,14 @@ import org.apache.nifi.processor.ProcessContext;
 import org.apache.nifi.processor.ProcessSession;
 import org.apache.nifi.processor.ProcessorInitializationContext;
 import org.apache.nifi.processor.Relationship;
+import org.apache.nifi.processor.io.InputStreamCallback;
 import org.apache.nifi.processor.util.StandardValidators;
 
 import java.io.*;
+import java.nio.charset.Charset;
 import java.util.*;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 
 
 import jmrc.EntryNotFoundException;
@@ -47,6 +51,7 @@ import jmrc.QueryException;
 import jmrc.UndefinedValueException;
 
 
+import org.apache.nifi.stream.io.StreamUtils;
 import weka.classifiers.Classifier;
 import weka.classifiers.functions.LinearRegression;
 import weka.classifiers.functions.SMOreg;
@@ -240,6 +245,8 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
 
     private Set<Relationship> relationships;
 
+    private final BlockingQueue<byte[]> bufferQueue = new LinkedBlockingQueue<>();
+
     @Override
     protected void init(final ProcessorInitializationContext context) {
         final List<PropertyDescriptor> descriptors = new ArrayList<PropertyDescriptor>();
@@ -304,9 +311,29 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
         attributeFile = new File(String.valueOf(context.getProperty(ARFF_PATH).evaluateAttributeExpressions(flowFile).getValue()));
 
         // 2. Read text from flowfile
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(session.read(flowFile)));
+
+        final String contentString;
+        byte[] buffer = bufferQueue.poll();
+
         try {
-            String text = bufferedReader.readLine();
+            final byte[] byteBuffer = buffer;
+            session.read(flowFile, new InputStreamCallback() {
+                @Override
+                public void process(InputStream in) throws IOException {
+                    StreamUtils.fillBuffer(in, byteBuffer, false);
+                }
+            });
+
+            final long len = Math.min(byteBuffer.length, flowFile.getSize());
+            contentString = new String(byteBuffer, 0, (int) len, Charset.forName("UTF-8"));
+        } finally {
+            bufferQueue.offer(buffer);
+        }
+
+
+        //BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(session.read(flowFile)));
+        try {
+            //String text = bufferedReader.readLine();
 
 
             // load models for all Big Five traits
@@ -317,7 +344,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
                                                  );
 
             // get feature counts from the input text
-            Map<String,Double> counts = getFeatureCounts(text);
+            Map<String,Double> counts = getFeatureCounts(contentString);
             getLogger().debug("Total features computed: " + counts.size());
 
             // if flag is set to yes, we output the counts to mairessepersonalityrecognition.count_output
