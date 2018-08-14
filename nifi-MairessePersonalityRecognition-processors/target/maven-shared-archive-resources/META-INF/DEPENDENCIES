@@ -6,63 +6,13 @@
 nifi-MairessePersonalityRecognition-processors
 
 
-From: 'an unknown organization'
-  - JniLoader (https://github.com/fommil/jniloader) com.github.fommil:jniloader:jar:1.1
-    License: LGPL  (http://www.gnu.org/licenses/lgpl.txt)
-  - all (https://github.com/fommil/netlib-java/all) com.github.fommil.netlib:all:pom:1.1.2
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - core (https://github.com/fommil/netlib-java/core) com.github.fommil.netlib:core:jar:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - native_ref-java (https://github.com/fommil/netlib-java/native_ref/native_ref-java) com.github.fommil.netlib:native_ref-java:jar:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - native_system-java (https://github.com/fommil/netlib-java/native_system/native_system-java) com.github.fommil.netlib:native_system-java:jar:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_ref-linux-armhf (https://github.com/fommil/netlib-java/native_ref/native_ref-xbuilds/netlib-native_ref-linux-armhf) com.github.fommil.netlib:netlib-native_ref-linux-armhf:so:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_ref-linux-i686 (https://github.com/fommil/netlib-java/native_ref/native_ref-xbuilds/netlib-native_ref-linux-i686) com.github.fommil.netlib:netlib-native_ref-linux-i686:so:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_ref-linux-x86_64 (https://github.com/fommil/netlib-java/native_ref/native_ref-xbuilds/netlib-native_ref-linux-x86_64) com.github.fommil.netlib:netlib-native_ref-linux-x86_64:so:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_ref-osx-x86_64 (https://github.com/fommil/netlib-java/native_ref/netlib-native_ref-osx-x86_64) com.github.fommil.netlib:netlib-native_ref-osx-x86_64:jnilib:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_ref-win-i686 (https://github.com/fommil/netlib-java/native_ref/netlib-native_ref-win-i686) com.github.fommil.netlib:netlib-native_ref-win-i686:dll:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_ref-win-x86_64 (https://github.com/fommil/netlib-java/native_ref/netlib-native_ref-win-x86_64) com.github.fommil.netlib:netlib-native_ref-win-x86_64:dll:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_system-linux-armhf (https://github.com/fommil/netlib-java/native_system/native_system-xbuilds/netlib-native_system-linux-armhf) com.github.fommil.netlib:netlib-native_system-linux-armhf:so:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_system-linux-i686 (https://github.com/fommil/netlib-java/native_system/native_system-xbuilds/netlib-native_system-linux-i686) com.github.fommil.netlib:netlib-native_system-linux-i686:so:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_system-linux-x86_64 (https://github.com/fommil/netlib-java/native_system/native_system-xbuilds/netlib-native_system-linux-x86_64) com.github.fommil.netlib:netlib-native_system-linux-x86_64:so:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_system-osx-x86_64 (https://github.com/fommil/netlib-java/native_system/netlib-native_system-osx-x86_64) com.github.fommil.netlib:netlib-native_system-osx-x86_64:jnilib:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_system-win-i686 (https://github.com/fommil/netlib-java/native_system/netlib-native_system-win-i686) com.github.fommil.netlib:netlib-native_system-win-i686:dll:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - netlib-native_system-win-x86_64 (https://github.com/fommil/netlib-java/native_system/netlib-native_system-win-x86_64) com.github.fommil.netlib:netlib-native_system-win-x86_64:dll:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - Matrix Toolkits for Java (https://github.com/fommil/matrix-toolkits-java/) com.googlecode.matrix-toolkits-java:mtj:jar:1.0.4
-    License: GNU Lesser General Public License  (http://www.gnu.org/licenses/lgpl.html)
-  - netlib-java (https://github.com/fommil/netlib-java/netlib-java) com.googlecode.netlib-java:netlib-java:jar:1.1
-    License: BSD 3 Clause  (http://opensource.org/licenses/BSD-3-Clause)
-  - Fortran to Java ARPACK (http://f2j.sourceforge.net) net.sourceforge.f2j:arpack_combined_all:jar:0.1
-    License: The BSD License  (http://www.opensource.org/licenses/bsd-license.php)
-  - bounce (http://www.edankert.com/bounce/) nz.ac.waikato.cms.weka.thirdparty:bounce:jar:0.18
-    License: BSD  (http://www.opensource.org/licenses/BSD-3-Clause)    License: AS-IS 
-  - java-cup-11b (http://www2.cs.tum.edu/projects/cup/) nz.ac.waikato.cms.weka.thirdparty:java-cup-11b:jar:2015.03.26
-    License: BSD-like  (https://www2.in.tum.de/repos/cup/develop/licence.txt)
-  - java-cup-11b-runtime (http://www2.cs.tum.edu/projects/cup/) nz.ac.waikato.cms.weka.thirdparty:java-cup-11b-runtime:jar:2015.03.26
-    License: BSD-like  (https://www2.in.tum.de/repos/cup/develop/licence.txt)
-
 From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-MairessePersonalityRecognition-processors (http://nifi.apache.org/nifi-nar-bundles/mairesse-personality-recognition/nifi-MairessePersonalityRecognition-processors) com.github.paulvid:nifi-MairessePersonalityRecognition-processors:jar:1.5.0.3.1.2.0-7
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
   - nifi-MairessePersonalityRecognition-processors (http://nifi.apache.org/nifi-nar-bundles/mairesse-personality-recognition/nifi-MairessePersonalityRecognition-processors) com.github.paulvid:nifi-MairessePersonalityRecognition-processors:jar:1.5.0.3.1.2.0-7
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
   - nifi-utils (http://nifi.apache.org/nifi-commons/nifi-utils) org.apache.nifi:nifi-utils:jar:1.5.0
     License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
-
-From: 'University of Waikato, Hamilton, NZ' (http://www.waikato.ac.nz/)
-  - weka-stable (http://www.cms.waikato.ac.nz/ml/weka/) nz.ac.waikato.cms.weka:weka-stable:jar:3.8.0
-    License: GNU General Public License 3  (http://www.gnu.org/licenses/gpl-3.0.txt)
 
 
 

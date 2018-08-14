@@ -210,6 +210,11 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
     /** Set of features that aren't included in the models. **/
     private Set<String> domainDependentFeatureSet = new LinkedHashSet<String>(Arrays.asList(domainDependentFeatures));
 
+    /** Arrays of features that aren't included in one instance analysis (corpus analysis only). **/
+    private static final String[] absoluteCountFeatures = {"WC"};
+
+    /** Set of features that aren't included in one instance analysis (corpus analysis only). **/
+    private Set<String> absoluteCountFeatureSet;
 
     /** Valid PoS tags in the MRC Psycholinguistic Database. */
     private static final MRCPoS[] MRC_POS = {
@@ -311,17 +316,39 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
         /** Attribute File **/
         attributeFile = new File(String.valueOf(context.getProperty(ARFF_PATH).evaluateAttributeExpressions(flowFile).getValue()));
 
+        /** Shortcut map **/
+        featureShortcuts = getShortFeatureNames();
+
+        // load non general features
+        domainDependentFeatureSet = new LinkedHashSet<String>(Arrays.asList(domainDependentFeatures));
+
+        // load absolute features
+        absoluteCountFeatureSet = new LinkedHashSet<String>(Arrays.asList(absoluteCountFeatures));
+
         // 2. Read text from flowfile
 
-        final String contentString;
-        byte[] buffer = bufferQueue.poll();
+        String contentString;
+        //byte[] buffer = bufferQueue.poll();
+        InputStream in = session.read(flowFile);
 
+        ByteArrayOutputStream bos = new ByteArrayOutputStream();
+        try {
+            StreamUtils.copy(in, bos);
+            in.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        contentString = bos.toString();
+
+        /*
         try {
             final byte[] byteBuffer = buffer;
             session.read(flowFile, new InputStreamCallback() {
                 @Override
                 public void process(InputStream in) throws IOException {
-                    StreamUtils.fillBuffer(in, byteBuffer, false);
+                    ByteArrayOutputStream bos = new ByteArrayOutputStream();
+                    StreamUtils.copy(in, bos);
+                    contentString = bos.toString();
                 }
             });
 
@@ -333,6 +360,8 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
         } finally {
             bufferQueue.offer(buffer);
         }
+
+*/
 
         //BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(session.read(flowFile)));
         try {
@@ -346,6 +375,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
                                                  String.valueOf(context.getProperty(MODELS_BASE_DIR).evaluateAttributeExpressions(flowFile).getValue())
                                                  );
 
+            getLogger().debug(contentString);
             // get feature counts from the input text
             Map<String,Double> counts = getFeatureCounts(contentString);
             getLogger().debug("Total features computed: " + counts.size());
@@ -361,6 +391,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
             getLogger().debug("Running models...");
             double[] scores = runWekaModels(models, counts);
 
+            getLogger().debug("HERE WE GO!");
             // Putting Results in attributes
 
             flowFile = session.putAttribute(flowFile, EXTRAVERSION, ""+scores[0]);
@@ -606,7 +637,6 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
      */
     public double[] runWekaModels(Classifier[] models, Map<String,Double> counts) {
         double[] scores = new double[models.length];
-
         try {
             // for each model
             for (int i = 0; i < models.length; i++) {
@@ -638,7 +668,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
             throws Exception {
 
         // create new instance from test data
-        Instance userInst = new DenseInstance(userData.size() + 1);
+        Instance userInst = new Instance(userData.size() + 1);
         // create empty dataset
         Instances dataset = new Instances(new BufferedReader(new FileReader(
                 attributeFile)), 1);
@@ -653,7 +683,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
                 if (userData.get(attr.name().toUpperCase()).toString().equals(
                         "?")) {
                     userInst.setMissing(attr);
-                    System.err.println("Warning: attribute " + attr.name()
+                    getLogger().debug("Warning: attribute " + attr.name()
                             + " missing");
                 } else {
                     double attrValue = userData.get(attr.name()
@@ -662,7 +692,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
                 }
 
             } else {
-                System.err.println("No value for feature " + attr.name()
+                getLogger().debug("No value for feature " + attr.name()
                         + ", setting as missing value...");
                 userInst.setMissing(attr);
             }
@@ -674,5 +704,93 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
         return result;
     }
 
+
+    /**
+     * Returns a mapping associating features in the LIWC.CAT file to shortcuts used in the
+     * Weka models.
+     *
+     * @return mapping asssociating long names in the LIWC dictionary to the short names in the
+     * Weka models.
+     */
+    private Map<String,String> getShortFeatureNames() {
+
+        Map<String,String> shortcuts = new LinkedHashMap<String,String>();
+
+        shortcuts.put("LINGUISTIC", "LINGUISTIC");
+        shortcuts.put("PRONOUN", "PRONOUN");
+        shortcuts.put("I", "I");
+        shortcuts.put("WE", "WE");
+        shortcuts.put("SELF", "SELF");
+        shortcuts.put("YOU", "YOU");
+        shortcuts.put("OTHER", "OTHER");
+        shortcuts.put("NEGATIONS", "NEGATE");
+        shortcuts.put("ASSENTS", "ASSENT");
+        shortcuts.put("ARTICLES", "ARTICLE");
+        shortcuts.put("PREPOSITIONS", "PREPS");
+        shortcuts.put("NUMBERS", "NUMBER");
+        shortcuts.put("PSYCHOLOGICAL PROCESS", "PSYCHOLOGICAL PROCESS");
+        shortcuts.put("AFFECTIVE PROCESS", "AFFECT");
+        shortcuts.put("POSITIVE EMOTION", "POSEMO");
+        shortcuts.put("POSITIVE FEELING", "POSFEEL");
+        shortcuts.put("OPTIMISM", "OPTIM");
+        shortcuts.put("NEGATIVE EMOTION", "NEGEMO");
+        shortcuts.put("ANXIETY", "ANX");
+        shortcuts.put("ANGER", "ANGER");
+        shortcuts.put("SADNESS", "SAD");
+        shortcuts.put("COGNITIVE PROCESS", "COGMECH");
+        shortcuts.put("CAUSATION", "CAUSE");
+        shortcuts.put("INSIGHT", "INSIGHT");
+        shortcuts.put("DISCREPANCY", "DISCREP");
+        shortcuts.put("INHIBITION", "INHIB");
+        shortcuts.put("TENTATIVE", "TENTAT");
+        shortcuts.put("CERTAINTY", "CERTAIN");
+        shortcuts.put("SENSORY PROCESS", "SENSES");
+        shortcuts.put("SEEING", "SEE");
+        shortcuts.put("HEARING", "HEAR");
+        shortcuts.put("FEELING", "FEEL");
+        shortcuts.put("SOCIAL PROCESS", "SOCIAL");
+        shortcuts.put("COMMUNICATION", "COMM");
+        shortcuts.put("REFERENCE PEOPLE", "OTHREF");
+        shortcuts.put("FRIENDS", "FRIENDS");
+        shortcuts.put("FAMILY", "FAMILY");
+        shortcuts.put("HUMANS", "HUMANS");
+        shortcuts.put("RELATIVITY", "RELATIVITY");
+        shortcuts.put("TIME", "TIME");
+        shortcuts.put("PAST", "PAST");
+        shortcuts.put("PRESENT", "PRESENT");
+        shortcuts.put("FUTURE", "FUTURE");
+        shortcuts.put("SPACE", "SPACE");
+        shortcuts.put("UP", "UP");
+        shortcuts.put("DOWN", "DOWN");
+        shortcuts.put("INCLUSIVE", "INCL");
+        shortcuts.put("EXCLUSIVE", "EXCL");
+        shortcuts.put("MOTION", "MOTION");
+        shortcuts.put("PERSONAL PROCESS", "PERSONAL PROCESS");
+        shortcuts.put("OCCUPATION", "OCCUP");
+        shortcuts.put("SCHOOL", "SCHOOL");
+        shortcuts.put("JOB OR WORK", "JOB");
+        shortcuts.put("ACHIEVEMENT", "ACHIEVE");
+        shortcuts.put("LEISURE ACTIVITY", "LEISURE");
+        shortcuts.put("HOME", "HOME");
+        shortcuts.put("SPORTS", "SPORTS");
+        shortcuts.put("TV OR MOVIE", "TV");
+        shortcuts.put("MUSIC", "MUSIC");
+        shortcuts.put("MONEY", "MONEY");
+        shortcuts.put("METAPHYSICAL", "METAPH");
+        shortcuts.put("RELIGION", "RELIG");
+        shortcuts.put("DEATH AND DYING", "DEATH");
+        shortcuts.put("PHYSICAL STATES", "PHYSCAL");
+        shortcuts.put("BODY STATES", "BODY");
+        shortcuts.put("SEXUALITY", "SEXUAL");
+        shortcuts.put("EATING", "EATING");
+        shortcuts.put("SLEEPING", "SLEEP");
+        shortcuts.put("GROOMING", "GROOM");
+        shortcuts.put("EXPERIMENTAL DIMENSION", "EXPERIMENTAL DIMENSION");
+        shortcuts.put("SWEAR WORDS", "SWEAR");
+        shortcuts.put("NONFLUENCIES", "NONFL");
+        shortcuts.put("FILLERS", "FILLERS");
+
+        return shortcuts;
+    }
 
 }
