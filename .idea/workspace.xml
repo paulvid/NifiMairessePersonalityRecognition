@@ -19,16 +19,16 @@
       <file leaf-file-name="MairessePersonalityRecognition.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="335" column="14" selection-start-line="335" selection-start-column="14" selection-end-line="335" selection-end-column="14" />
+            <state relative-caret-position="410">
+              <caret line="315" column="8" selection-start-line="315" selection-start-column="8" selection-end-line="335" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#8991#8999#0" expanded="true" />
                 <element signature="e#10175#10195#0" expanded="true" />
                 <element signature="e#10491#10505#0" expanded="true" />
                 <element signature="e#13089#13104#0" expanded="true" />
-                <element signature="e#17984#18000#0" expanded="true" />
-                <element signature="e#18083#18100#0" expanded="true" />
+                <element signature="e#21322#21338#0" expanded="true" />
+                <element signature="e#21421#21438#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,10 +37,15 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
+            <state relative-caret-position="855">
               <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="README" pinned="false" current-in-tab="false">
@@ -99,6 +104,7 @@
       <find>Instance</find>
       <find>Instance</find>
       <find>read(</find>
+      <find>bufferQueue</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -294,7 +300,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18257694" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18257694" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -323,8 +329,8 @@
             <element signature="e#10175#10195#0" expanded="true" />
             <element signature="e#10491#10505#0" expanded="true" />
             <element signature="e#13089#13104#0" expanded="true" />
-            <element signature="e#17984#18000#0" expanded="true" />
-            <element signature="e#18083#18100#0" expanded="true" />
+            <element signature="e#21322#21338#0" expanded="true" />
+            <element signature="e#21421#21438#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -359,8 +365,8 @@
             <element signature="e#10175#10195#0" expanded="true" />
             <element signature="e#10491#10505#0" expanded="true" />
             <element signature="e#13089#13104#0" expanded="true" />
-            <element signature="e#17984#18000#0" expanded="true" />
-            <element signature="e#18083#18100#0" expanded="true" />
+            <element signature="e#21322#21338#0" expanded="true" />
+            <element signature="e#21421#21438#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -405,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/LIWCDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2790">
@@ -422,18 +421,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="335" column="14" selection-start-line="335" selection-start-column="14" selection-end-line="335" selection-end-column="14" />
+        <state relative-caret-position="410">
+          <caret line="315" column="8" selection-start-line="315" selection-start-column="8" selection-end-line="335" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#8991#8999#0" expanded="true" />
             <element signature="e#10175#10195#0" expanded="true" />
             <element signature="e#10491#10505#0" expanded="true" />
             <element signature="e#13089#13104#0" expanded="true" />
-            <element signature="e#17984#18000#0" expanded="true" />
-            <element signature="e#18083#18100#0" expanded="true" />
+            <element signature="e#21322#21338#0" expanded="true" />
+            <element signature="e#21421#21438#0" expanded="true" />
           </folding>
         </state>
       </provider>

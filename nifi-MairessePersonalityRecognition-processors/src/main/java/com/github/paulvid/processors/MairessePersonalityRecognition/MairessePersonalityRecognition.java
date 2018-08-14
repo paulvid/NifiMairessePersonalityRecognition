@@ -281,6 +281,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
 
     }
 
+
     @Override
     public void onTrigger(final ProcessContext context, final ProcessSession session) throws ProcessException {
         FlowFile flowFile = session.get();
@@ -326,10 +327,12 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
 
             final long len = Math.min(byteBuffer.length, flowFile.getSize());
             contentString = new String(byteBuffer, 0, (int) len, Charset.forName("UTF-8"));
+
+
+
         } finally {
             bufferQueue.offer(buffer);
         }
-
 
         //BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(session.read(flowFile)));
         try {
