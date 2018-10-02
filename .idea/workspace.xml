@@ -2,133 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8d53e6a-e7ae-40f9-b433-32e0f35bd4f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_paulvid_weka_3_4_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_jniloader_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_core_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_native_ref_java_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_native_system_java_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_ref_linux_armhf_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_ref_linux_i686_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_ref_linux_x86_64_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_ref_osx_x86_64_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_ref_win_i686_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_ref_win_x86_64_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_system_linux_armhf_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_system_linux_i686_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_system_linux_x86_64_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_system_osx_x86_64_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_system_win_i686_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_fommil_netlib_netlib_native_system_win_x86_64_natives_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_matrix_toolkits_java_mtj_1_0_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_netlib_java_netlib_java_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_f2j_arpack_combined_all_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_ac_waikato_cms_weka_thirdparty_bounce_0_18.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_ac_waikato_cms_weka_thirdparty_java_cup_11b_2015_03_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_ac_waikato_cms_weka_thirdparty_java_cup_11b_runtime_2015_03_26.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_ac_waikato_cms_weka_weka_stable_3_8_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/nifi-MairessePersonalityRecognition-nar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/nifi-MairessePersonalityRecognition-nar.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/target/classes/META-INF/bundled-dependencies/nifi-MairessePersonalityRecognition-processors-1.5.0.3.1.2.0-7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/target/classes/META-INF/bundled-dependencies/nifi-MairessePersonalityRecognition-processors-1.5.0.3.1.2.0-7.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/target/nifi-MairessePersonalityRecognition-nar-1.5.0.3.1.2.0-7.nar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/target/nifi-MairessePersonalityRecognition-nar-1.5.0.3.1.2.0-7.nar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/nifi-MairessePersonalityRecognition-processors.iml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/nifi-MairessePersonalityRecognition-processors.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/test/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognitionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/test/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognitionTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/classes/META-INF/DEPENDENCIES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/classes/META-INF/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/classes/META-INF/NOTICE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/classes/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition$1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/classes/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.class" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/classes/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/nifi-MairessePersonalityRecognition-processors-1.5.0.3.1.2.0-7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/nifi-MairessePersonalityRecognition-processors-1.5.0.3.1.2.0-7.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/surefire-reports/TEST-com.github.paulvid.processors.MairessePersonalityRecognition.MairessePersonalityRecognitionTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/surefire-reports/TEST-com.github.paulvid.processors.MairessePersonalityRecognition.MairessePersonalityRecognitionTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/surefire-reports/com.github.paulvid.processors.MairessePersonalityRecognition.MairessePersonalityRecognitionTest-output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/surefire-reports/com.github.paulvid.processors.MairessePersonalityRecognition.MairessePersonalityRecognitionTest-output.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/surefire-reports/com.github.paulvid.processors.MairessePersonalityRecognition.MairessePersonalityRecognitionTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/surefire-reports/com.github.paulvid.processors.MairessePersonalityRecognition.MairessePersonalityRecognitionTest.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/test-classes/META-INF/DEPENDENCIES" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/test-classes/META-INF/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/test-classes/META-INF/NOTICE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/test-classes/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognitionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/test-classes/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognitionTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/target/" />
     <ignored path="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1632540628">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="559" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="559" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="java" value="1" />
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="JAVA" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MairessePersonalityRecognition.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="243" column="43" selection-start-line="243" selection-start-column="36" selection-end-line="243" selection-end-column="43" />
+            <state relative-caret-position="130">
+              <caret line="419" column="10" selection-start-line="419" selection-start-column="10" selection-end-line="419" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#8991#8999#0" expanded="true" />
-                <element signature="e#10175#10195#0" expanded="true" />
-                <element signature="e#10491#10505#0" expanded="true" />
-                <element signature="e#13089#13104#0" expanded="true" />
-                <element signature="e#22216#22232#0" expanded="true" />
-                <element signature="e#22315#22332#0" expanded="true" />
-                <element signature="e#29968#29983#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MairessePersonalityRecognitionTest.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/test/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognitionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
+            <state relative-caret-position="330">
+              <caret line="42" column="93" lean-forward="true" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRunner.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/nifi/nifi-mock/1.5.0/nifi-mock-1.5.0.jar!/org/apache/nifi/util/TestRunner.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
+            <state relative-caret-position="-4">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="README" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ext/weka-3-4/README">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1444">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/pom.xml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="Utils.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="538">
               <caret line="108" column="36" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -137,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LIWCDictionary.java" pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/LIWCDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="1950">
+              <caret line="130" column="47" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -160,22 +140,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ptin</find>
-      <find>loadWe</find>
-      <find>loadWekaModels</find>
-      <find>DIMENSION</find>
-      <find>Instance</find>
-      <find>Instance</find>
-      <find>read(</find>
       <find>bufferQueue</find>
       <find>process</find>
       <find>getFeatureCounts</find>
       <find>featureShortcuts</find>
-      <find>runWekaModels</find>
       <find>Running</find>
       <find>System.err</find>
       <find>System.</find>
       <find>system.</find>
+      <find>Input text splitted into</find>
+      <find>loadWeka</find>
+      <find>model</find>
+      <find>modeld</find>
+      <find>runWeka</find>
+      <find>attributeFile</find>
+      <find>true</find>
+      <find>Input text splitted</find>
+      <find>Classi</find>
+      <find>MODEL =</find>
+      <find>load</find>
+      <find>addInstance</find>
+      <find>counts</find>
+      <find>M5</find>
+      <find>System.out</find>
+      <find>domainDe</find>
+      <find>loadWekaModels</find>
+      <find>runWekaModels</find>
+      <find>runWekaModel</find>
+      <find>LIWC feature</find>
+      <find>mrcFeatures</find>
+      <find>M5P</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,11 +180,18 @@
       <list>
         <option value="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MyProcessor.java" />
         <option value="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/Utils.java" />
-        <option value="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/test/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognitionTest.java" />
-        <option value="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml" />
-        <option value="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java" />
         <option value="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/LIWCDictionary.java" />
+        <option value="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml" />
+        <option value="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/test/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognitionTest.java" />
+        <option value="$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -206,7 +207,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,43 +281,28 @@
             </path>
             <path>
               <item name="mairesse-personality-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mairesse-personality-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="to-upload-to-nifi-lib-folder" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mairesse-personality-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mairesse-personality-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="to-upload-to-nifi-lib-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mairesse-personality-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mairesse-personality-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="to-upload-to-nifi-lib-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="self" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mairesse-personality-recognition" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mairesse-personality-recognition" type="462c0819:PsiDirectoryNode" />
-              <item name="to-upload-to-nifi-lib-folder" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="self" type="462c0819:PsiDirectoryNode" />
-              <item name="M5P-R" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
               <item name="mairesse-personality-recognition" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.paulvid:mrc-psycholinguistic-database:0.9" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="mairesse-personality-recognition" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.github.paulvid:weka:3.4.3" type="70bed36:NamedLibraryElementNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538488942432" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -334,9 +320,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MairessePersonalityRecognitionTest.testProcessor">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="MairessePersonalityRecognitionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="nifi-MairessePersonalityRecognition-processors" />
@@ -346,61 +335,51 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.github.paulvid.processors.MairessePersonalityRecognition" />
       <option name="MAIN_CLASS_NAME" value="com.github.paulvid.processors.MairessePersonalityRecognition.MairessePersonalityRecognitionTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MairessePersonalityRecognitionTest.testProcessor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="nifi-MairessePersonalityRecognition-processors" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.paulvid.processors.MairessePersonalityRecognition.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.paulvid.processors.MairessePersonalityRecognition" />
+      <option name="MAIN_CLASS_NAME" value="com.github.paulvid.processors.MairessePersonalityRecognition.MairessePersonalityRecognitionTest" />
+      <option name="METHOD_NAME" value="testProcessor" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.MairessePersonalityRecognitionTest" />
+      <item itemvalue="JUnit.MairessePersonalityRecognitionTest.testProcessor" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MairessePersonalityRecognitionTest.testProcessor" />
         <item itemvalue="JUnit.MairessePersonalityRecognitionTest" />
       </list>
     </recent_temporary>
@@ -419,155 +398,74 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 16h 47m 50s.xml">
+    <history-entry file="MairessePersonalityRecognitionTest - 2018.10.02 at 09h 44m 23s.xml">
       <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 16h 51m 39s.xml">
+    <history-entry file="MairessePersonalityRecognitionTest - 2018.10.02 at 09h 44m 31s.xml">
       <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 16h 52m 53s.xml">
+    <history-entry file="MairessePersonalityRecognitionTest - 2018.10.02 at 09h 44m 57s.xml">
       <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 16h 53m 36s.xml">
+    <history-entry file="MairessePersonalityRecognitionTest - 2018.10.02 at 09h 45m 24s.xml">
       <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 16h 57m 59s.xml">
+    <history-entry file="MairessePersonalityRecognitionTest - 2018.10.02 at 09h 51m 22s.xml">
       <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 17h 00m 18s.xml">
+    <history-entry file="MairessePersonalityRecognitionTest - 2018.10.02 at 09h 52m 24s.xml">
       <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 17h 01m 57s.xml">
+    <history-entry file="MairessePersonalityRecognitionTest - 2018.10.02 at 09h 52m 48s.xml">
       <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 17h 02m 34s.xml">
+    <history-entry file="MairessePersonalityRecognitionTest - 2018.10.02 at 09h 54m 22s.xml">
       <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 17h 03m 00s.xml">
+    <history-entry file="MairessePersonalityRecognitionTest - 2018.10.02 at 10h 00m 08s.xml">
       <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MairessePersonalityRecognitionTest - 2018.08.14 at 17h 03m 43s.xml">
-      <configuration name="MairessePersonalityRecognitionTest" configurationId="JUnit" />
+    <history-entry file="MairessePersonalityRecognitionTest_testProcessor - 2018.10.02 at 10h 01m 53s.xml">
+      <configuration name="MairessePersonalityRecognitionTest.testProcessor" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1917" height="1074" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32958034" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32958034" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32958034" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18257694" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19093333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49813333" visible="true" weight="0.3295099" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50186664" side_tool="true" visible="true" weight="0.3295099" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49866667" weight="0.3295099" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2970">
-          <caret line="245" selection-start-line="245" selection-end-line="245" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8991#8999#0" expanded="true" />
-            <element signature="e#10175#10195#0" expanded="true" />
-            <element signature="e#10491#10505#0" expanded="true" />
-            <element signature="e#13089#13104#0" expanded="true" />
-            <element signature="e#22216#22232#0" expanded="true" />
-            <element signature="e#22315#22332#0" expanded="true" />
-            <element signature="e#29968#29983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/LIWCDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3810">
-          <caret line="264" selection-start-line="264" selection-end-line="264" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="163" column="24" selection-start-line="163" selection-start-column="24" selection-end-line="163" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8991#8999#0" expanded="true" />
-            <element signature="e#10175#10195#0" expanded="true" />
-            <element signature="e#10491#10505#0" expanded="true" />
-            <element signature="e#13089#13104#0" expanded="true" />
-            <element signature="e#22216#22232#0" expanded="true" />
-            <element signature="e#22315#22332#0" expanded="true" />
-            <element signature="e#29968#29983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="124" selection-start-line="124" selection-end-line="124" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/LIWCDictionary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3810">
-          <caret line="264" lean-forward="true" selection-start-line="264" selection-end-line="264" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ext/weka-3-4/README">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1444">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/pom.xml">
+    <entry file="file://$PROJECT_DIR$/lib/models/obs/M5P-R/consc.model">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/nifi/nifi-mock/1.5.0/nifi-mock-1.5.0.jar!/org/apache/nifi/util/TestRunner.class">
@@ -577,46 +475,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/obs/M5P-R/consc.model">
+    <entry file="file://$PROJECT_DIR$/ext/weka-3-4/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-nar/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/test/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognitionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="54" column="37" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="52" column="49" selection-start-line="52" selection-start-column="49" selection-end-line="52" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="243" column="43" selection-start-line="243" selection-start-column="36" selection-end-line="243" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#8991#8999#0" expanded="true" />
-            <element signature="e#10175#10195#0" expanded="true" />
-            <element signature="e#10491#10505#0" expanded="true" />
-            <element signature="e#13089#13104#0" expanded="true" />
-            <element signature="e#22216#22232#0" expanded="true" />
-            <element signature="e#22315#22332#0" expanded="true" />
-            <element signature="e#29968#29983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/Utils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="538">
           <caret line="108" column="36" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -626,8 +497,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/LIWCDictionary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        <state relative-caret-position="1950">
+          <caret line="130" column="47" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/nifi/nifi-mock/1.5.0/nifi-mock-1.5.0.jar!/org/apache/nifi/util/StandardProcessorTestRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="844" selection-start-line="844" selection-end-line="844" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8244">
+          <caret line="623" selection-start-line="623" selection-end-line="623" />
+          <folding>
+            <element signature="e#25341#25342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/test/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognitionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="42" column="93" lean-forward="true" selection-start-line="42" selection-start-column="93" selection-end-line="42" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nifi-MairessePersonalityRecognition-processors/src/main/java/com/github/paulvid/processors/MairessePersonalityRecognition/MairessePersonalityRecognition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="419" column="10" selection-start-line="419" selection-start-column="10" selection-end-line="419" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -699,11 +617,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: weka:weka:3.4.11</last-edited>
+          <last-edited>Maven: com.github.paulvid:weka:3.4.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.52988505" />
               </list>
             </option>
           </splitter-proportions>

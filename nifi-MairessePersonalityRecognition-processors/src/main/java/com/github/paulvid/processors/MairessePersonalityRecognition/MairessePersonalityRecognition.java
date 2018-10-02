@@ -371,9 +371,11 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
             // load models for all Big Five traits
             Classifier[] models = loadWekaModels(String.valueOf(context.getProperty(MODEL_TYPE).evaluateAttributeExpressions(flowFile).getValue()),
                                                  String.valueOf(context.getProperty(INPUT_TYPE).evaluateAttributeExpressions(flowFile).getValue()).equals(WRITTEN_CONTENT),
-                                                true,
+                                                false,
                                                  String.valueOf(context.getProperty(MODELS_BASE_DIR).evaluateAttributeExpressions(flowFile).getValue())
                                                  );
+
+
 
             getLogger().debug(contentString);
             // get feature counts from the input text
@@ -405,16 +407,22 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
 
             if (String.valueOf(context.getProperty(OUTPUT_MODEL_FLAG).evaluateAttributeExpressions(flowFile).getValue()).equals(YES)) {
                 String model_out = "Models output \n" +
-                               "Extraversion: " + models[0].toString() + "\n"+
-                               "Emotional Stability: " + models[1].toString() + "\n"+
-                               "Agreeableness: " + models[2].toString() + "\n"+
-                               "Conscientiousness: " + models[3].toString() + "\n"+
-                               "Openness to experience: " + models[3].toString() + "\n";
+                               "Extraversion: " + models[0].toString() + "|||||" + String.valueOf(scores[0]) + "\n"+
+                               "Emotional Stability: " + models[1].toString() + "|||||" + String.valueOf(scores[1]) + "\n"+
+                               "Agreeableness: " + models[2].toString() + "|||||" + String.valueOf(scores[2]) + "\n"+
+                               "Conscientiousness: " + models[3].toString() + "|||||" + String.valueOf(scores[3]) + "\n"+
+                               "Openness to experience: " + models[3].toString() + "|||||" + String.valueOf(scores[4]) + "\n";
 
                 flowFile = session.putAttribute(flowFile, MODEL_OUTPUT, model_out);
             }
 
+
+          
+
+
             session.transfer(flowFile, REL_SUCCESS);
+
+
 
 
         } catch (IOException readFileE) {
@@ -467,6 +475,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
 
         // remove domain dependent LIWC features
         counts.keySet().removeAll(domainDependentFeatureSet);
+        counts.keySet().removeAll(absoluteCountFeatureSet);
         getLogger().debug("LIWC features computed: " + counts.size());
 
         // compute MRC features
@@ -640,6 +649,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
         try {
             // for each model
             for (int i = 0; i < models.length; i++) {
+               // System.out.println("YOO, running model [" + i + "]");
                 // compute score based on loaded model and counts
                 scores[i] = runWekaModel(models[i], counts);
             }
@@ -686,6 +696,7 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
                     getLogger().debug("Warning: attribute " + attr.name()
                             + " missing");
                 } else {
+
                     double attrValue = userData.get(attr.name()
                             .toUpperCase());
                     userInst.setValue(attr, attrValue);
@@ -697,9 +708,11 @@ public class MairessePersonalityRecognition extends AbstractProcessor {
                 userInst.setMissing(attr);
             }
         }
+        //System.out.println("MODEL BEFORE");
         userInst.setClassMissing();
 
         // run model for test data
+        //System.out.println("MODEL = " + model.toString());
         double result = model.classifyInstance(userInst);
         return result;
     }
